@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #77B28C;
+}
+.logo{
+    text-align: center;
+    font-weight: 700;
+    font-size: 3rem;
+    margin: 0rem 1.2rem;
+    
+}
+.container{
+    min-width: 360px;
+    padding: 1rem;
+    max-width: 1024px;
+    margin: auto;
+}
+.innerContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-between; */
+    gap: 2rem;
+}
+.hadees{
+    background-color: #011638;
+    padding: 1rem;
+    border-radius: 20px ;
+    width: 90%;
+    min-width: auto;
+    
+}
+.hadees p{
+    color: white;
+    font-size:1.2rem ;
+    line-height: 2.1rem;
+    white-space: normal; 
+    text-align: center;
+    font-weight: 500;
+    overflow-wrap: break-word; 
+    word-wrap: break-word; 
+    white-space: normal; 
+
+}
+.buttonOptions{
+    margin: 0rem 1rem;
+    display: flex;
+    gap: 10px;
+}
+.buttonOptions button, select{
+    padding: 1rem;
+    background-color: transparent;
+    border: 1px solid white;
+    outline: none;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    color: white;
+}
+.buttonOptions select option{
+    background-color: #62A87C;
+
+}
+.buttonOptions button{
+    cursor: pointer;
+}
+h3{
+    margin: 0rem 1rem;
+    
+}
+h2{
+    margin: 0rem 1rem 1rem 1rem;
+}
+
+.searchBtn{
+    display: flex;
+    gap: 10px;
+    margin: 0rem 1rem;
+}
+.searchBtn #search{
+    padding: 1rem;
+    background-color: transparent;
+    border: 1px solid white;
+    outline: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    color: white;
+
+}
+#search::placeholder{
+    color: white;
+}
+.searchBtn button{
+    padding: 1rem 1.3rem;
+    font-size: 1.2rem;
+    background-color: transparent;
+    border: 1px solid white;
+    outline: none;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
+footer{
+    width: 100%;
+    padding: 1rem;
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+@media screen and (max-width:700px) {
+    .logo{
+        font-size: 2rem;
+    }
+
+}
+
+@media screen and (min-width:1024px) {
+    .logo{
+        font-size: 4rem;
+    }
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hadees App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+</head>
+
+<body>
+    <div class="container">
+        <div class="logo">﷽</div>
+        <div class="innerContainer">
+            <h2></h2>
+            <div class="hadees">
+                <p></p>
+                 <!-- <span></span> -->
+            </div>
+            <h3></h3>
+            <div class="buttonOptions">
+            <select name="" id="select">
+                <option value="Bukhari" selected>Sahih-al-Bukhari </option>
+                <option value="Muslim">Sahih-Muslim</option>
+                <option value="Abudawood">Sunan Abi Dawud </option>
+                <option value="Ibnimajah">Sunan Ibn Majah</option>
+                <option value="Trimidhi">Jami`at-Tirmidh</option>
+            </select>
+            <button class="hadeesBtn">Generate Hadees</button>   
+        </div>
+        <div class="searchBtn">
+            <input type="number" id="search" placeholder="Enter Hadith Number">
+            <button class="btn">Search Hadees</button>
+        </div>
+        <footer>
+            <p> &copy; 2024 Faheem Bashir. All rights reserved</p>
+        </footer>
+
+    </div>
+  
+</div>
+
+
+
+
+    <script src="https://unpkg.com/axios@1.6.7/dist/axios.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
